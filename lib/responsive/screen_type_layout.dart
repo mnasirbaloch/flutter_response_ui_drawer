@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:responsive_architecture/enums/device_screen_type.dart';
 import 'package:responsive_architecture/responsive/responsive_builder.dart';
 
+// widget which contains layout for different screen like mobile,tablet and desktop
+// It will use ResponsiveBuilder (our own widget) to return the layout according to screen type
 class ScreenTypeLayout extends StatelessWidget {
   final Widget mobile;
   final Widget tablet;
@@ -15,6 +17,7 @@ class ScreenTypeLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // using responsive builder to get sizing info and return relative layout
     return ResponsiveBuilder(
       builder: (context, sizingInformation) {
         if (sizingInformation.deviceScreenType == DeviceScreenType.Tablet) {

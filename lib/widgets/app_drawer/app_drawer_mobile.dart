@@ -1,3 +1,5 @@
+// Widget used for app-drawer for mobile devies.
+// width will be different for portrait and landscape mode
 import 'package:flutter/material.dart';
 
 import 'app_drawer.dart';
@@ -16,7 +18,9 @@ class AppDrawerMobile extends StatelessWidget {
           color: Colors.black12,
         )
       ]),
-      child: Column(children: AppDrawer.getDrawerOptions(),),
+      child: Column(
+        children: AppDrawer.getDrawerOptions(),
+      ),
     );
   }
 }

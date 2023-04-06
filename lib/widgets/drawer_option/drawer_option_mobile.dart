@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// widget for defining single drawer option for portrait mode
 class DrawerOptionMobilePortrait extends StatelessWidget {
   final String title;
   final IconData iconData;
@@ -33,6 +34,7 @@ class DrawerOptionMobilePortrait extends StatelessWidget {
   }
 }
 
+// widget to create a single drawer-option for mobile for landscape mode
 class DrawerOptionMobileLandscape extends StatelessWidget {
   final IconData iconData;
   const DrawerOptionMobileLandscape({Key key, this.iconData}) : super(key: key);

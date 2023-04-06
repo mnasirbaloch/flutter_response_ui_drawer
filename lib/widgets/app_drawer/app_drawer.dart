@@ -1,3 +1,5 @@
+// widget which return app-drawer according to screen type and orientation
+// also contains a function named getDrawerOption which return the drawer options
 import 'package:flutter/material.dart';
 import 'package:responsive_architecture/responsive/orientation_layout.dart';
 import 'package:responsive_architecture/responsive/screen_type_layout.dart';

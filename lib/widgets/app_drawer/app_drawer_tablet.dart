@@ -1,3 +1,5 @@
+// Widget used for app-drawer for tablet devies.
+// different layout provided for different oreintation for tablet
 import 'package:flutter/material.dart';
 
 import 'app_drawer.dart';

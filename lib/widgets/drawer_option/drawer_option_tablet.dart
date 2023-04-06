@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// widget to create drawer option for tablet portrait mode
 class DrawerOptionTabletPortrait extends StatelessWidget {
   final String title;
   final IconData iconData;

@@ -1,3 +1,4 @@
+//  a widget to return drawer option depending on the device-type and orientation
 import 'package:flutter/material.dart';
 import 'package:responsive_architecture/responsive/orientation_layout.dart';
 import 'package:responsive_architecture/responsive/screen_type_layout.dart';
